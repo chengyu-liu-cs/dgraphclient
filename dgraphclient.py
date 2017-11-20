@@ -13,7 +13,7 @@ class dgraphclient(object):
         if self._tls:
             self._conn_string = 'https://'+self._hostname+":"+str(self._port)+'/query?'
         else:
-            self._conn_string = 'https://'+self._hostname+":"+str(self._port)+'/query?'
+            self._conn_string = 'http://'+self._hostname+":"+str(self._port)+'/query?'
 
     def query(self, query):
         try:
