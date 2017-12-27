@@ -1,16 +1,17 @@
 # dgraphclient
-Python client for dgrap.io
+Python client for dgraph.io<br>
 
 Within Python use:
 
-dc = dgraphclient('example.com', 8080)  #Add tls=True if you want encryption
-my_json_resp = dc.query('your query string')
+dc = dgraphclient('example.com', 8080) <br>
+#Add tls=True if you want encryption<br>
+my_json_resp = dc.query('your query string')<br>
 
 From command line:
 
 dgraphclient.py --hostname example.com --port 8080 --query 'your query string'
 
 
-TODO:
-Add: Possibility to read query from file in command line mode.
-Add: Possibility to use TLS from command line mode.
+TODO:<br>
+Add: Possibility to read query from file in command line mode.<br>
+Add: Possibility to use TLS from command line mode.<br>
